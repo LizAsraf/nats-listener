@@ -15,18 +15,18 @@ These instructions will get you a copy of the project up and running on your loc
 ## DB Structure
 
 The application uses a Postgres database with the following table structure:
-'''
- id|subject|data            
-----+---------+---------------------------
-'''
+
+|id|subject|data|
+|----|---------|---------------------------|
 
 List of relations:
-'''
- Schema |      Name       |   Type   |  Owner   
---------+-----------------+----------+----------
- public | messages        | table    | postgres
- public | messages_id_seq | sequence | postgres
-'''
+
+
+| Schema |      Name       |   Type   |  Owner   |
+|--------|-----------------|----------|----------|
+| public | messages        | table    | postgres|
+| public | messages_id_seq | sequence | postgres|
+
 
 **Note:** the application creates the Postgres database with the same schema and relations.
 
